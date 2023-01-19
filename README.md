@@ -1,3 +1,14 @@
+## Git SSH
+- Generate new SSH key with `ssh-keygen`
+- Add SSH key to git
+- Add this config in `~/.ssh/config`
+
+```
+Host github.com
+	HostName github.com
+	IdentityFile ~/.ssh/github_77
+```
+
 ## Xcode
 Install Xcode and command line tools for build packages
 - Install from AppStore
