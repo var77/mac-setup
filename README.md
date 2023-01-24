@@ -16,6 +16,8 @@ Install Xcode and command line tools for build packages
 
 ## Preferances
 - Configure keyboard Preferances
+- Key repeat rate - Fast
+- Delay until Repeat - Short
 
 ## iTerm2
 - Install iTerm2 https://iterm2.com/downloads.html
