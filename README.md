@@ -38,3 +38,14 @@ Install Xcode and command line tools for build packages
 ## Neovim
 Use https://github.com/var77/nvim-conf
 
+## Docker
+- Install docker desktop on mac https://docs.docker.com/desktop/install/mac-install/
+
+## Bat
+Install bat to have better cat :)
+- Run `brew install bat`
+
+## Fzf
+Install fuzzy finder to help search in files and history
+- Run `brew install fzf`
+- Run `$(brew --prefix)/opt/fzf/install`
