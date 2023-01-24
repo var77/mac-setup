@@ -29,7 +29,7 @@ Install Xcode and command line tools for build packages
 ## Homebrew
 - Install homebrew https://brew.sh/
 - Install all needed packages with homebew
-`for package in (cat .brew_packages); brew install $package; end`
+`brew install $(cat .brew_packages)`
 
 ## Nodejs
 - Install NVM https://github.com/nvm-sh/nvm#installing-and-updating
@@ -41,11 +41,6 @@ Use https://github.com/var77/nvim-conf
 ## Docker
 - Install docker desktop on mac https://docs.docker.com/desktop/install/mac-install/
 
-## Bat
-Install bat to have better cat :)
-- Run `brew install bat`
-
 ## Fzf
-Install fuzzy finder to help search in files and history
-- Run `brew install fzf`
+Install fuzzy finder keybindings to help search in files and history
 - Run `$(brew --prefix)/opt/fzf/install`
