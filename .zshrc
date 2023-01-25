@@ -16,7 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 alias vim=nvim
-alias lf="fzf --preview='bat --style=numbers --color=always {}'"
+alias lf='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git,.idea,.vscode}" | fzf --preview="bat --style=numbers --color=always {}"'
 alias vlf='vim $(lf)'
 PATH=$PATH:~/go/bin
 source ~/.profile
