@@ -46,3 +46,8 @@ Use https://github.com/var77/nvim-conf
 ## Fzf
 Install fuzzy finder keybindings to help search in files and history
 - Run `$(brew --prefix)/opt/fzf/install`
+
+## Paste
+Download and install Paste Clipboard Manager
+
+https://pasteapp.io/https://pasteapp.io/
