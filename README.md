@@ -50,4 +50,14 @@ Install fuzzy finder keybindings to help search in files and history
 ## Paste
 Download and install Paste Clipboard Manager
 
-https://pasteapp.io/https://pasteapp.io/
+https://pasteapp.io/
+
+## Table Plus
+Install table plus for SQL database managment
+
+https://tableplus.com/
+
+## MongoDB Compass
+Install Compass for MongoDB management
+
+https://www.mongodb.com/products/compass
