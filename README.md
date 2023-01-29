@@ -23,6 +23,18 @@ Install Xcode and command line tools for build packages
 - Install iTerm2 https://iterm2.com/downloads.html
 - Import Profile via URL `Preferances -> General -> Preferances`
 
+## Tmux
+- Copy `.tmux.conf` to `~/.tmux.conf`
+- Use helper function `t` to manage tmux 
+- `t dev "name"` -> start new development workspace or attach to name
+- `t a "name"` -> attach to name
+- `t ls` -> list sessions
+- `t l` -> list sessions
+- `t k "name"` -> kill session name
+- `t d "name"` -> kill session name
+- `t c "name"` -> start new session with name or if exists attach to it
+- `t n "name"` -> start new session with name or if exists attach to it
+
 ## ZSH
 - Run `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - Copy `.p10k.zsh` to `~/.p10k.zsh`
