@@ -19,7 +19,6 @@ alias vim=nvim
 alias lf='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git,.idea,.vscode}" | fzf --preview="bat --style=numbers --color=always {}"'
 alias vlf='vim $(lf)'
 PATH=$PATH:~/go/bin
-source ~/.profile
 
 # Tmux Helepr Functions
 function tmux_dev_workspace() {

@@ -37,6 +37,8 @@ Install Xcode and command line tools for build packages
 
 ## ZSH
 - Run `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Install p10k `git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
 - Copy `.p10k.zsh` to `~/.p10k.zsh`
 - Copy `.zshrc` to `~/.zshrc`
 
