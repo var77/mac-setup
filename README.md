@@ -18,6 +18,7 @@ Install Xcode and command line tools for build packages
 - Configure keyboard Preferances
 - Key repeat rate - Fast
 - Delay until Repeat - Short
+- Map capslock to escape from **Keyboard Shortcuts**
 
 ## iTerm2
 - Install iTerm2 https://iterm2.com/downloads.html
@@ -51,7 +52,7 @@ Install Xcode and command line tools for build packages
 - Install NodeJS with NVM `nvm install lts`
 
 ## Neovim
-Use https://github.com/var77/nvim-conf
+Use https://github.com/var77/astronvim_config
 
 ## Docker
 - Install docker desktop on mac https://docs.docker.com/desktop/install/mac-install/
